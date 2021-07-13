@@ -125,7 +125,29 @@ border-radius: 5px;
 ------ media quary
 -------------------------------------------------------------- */
 @media only screen and (max-width:688px) {
- .players, .blogs ,.courses{
+    .nav-ber {
+        height: 280px;
+        /* padding-bottom: 0; */
+
+    }
+    .space {
+        /* display: inline-block; */
+        /* align-items: center; */
+        width: 100%;
+        flex-direction: column;
+
+    }
+    .nav-btn ul  {
+        display: flex;
+        align-items: center;
+        flex-direction: column-reverse;
+    }
+    .nav-btn ul li {
+        display: flex;
+        margin: 0;
+        padding: 5px;
+    }
+    .players, .blogs ,.courses{
      grid-template-columns: repeat(1,1fr);
  }   
  .container{ width: 100%;} 
